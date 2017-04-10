@@ -19,7 +19,7 @@ export const environment: Environment = {
     },
 
     passport: {
-        login:       'http://passport.publication.studio.local/authorize',
+        login:       'http://passport.360global.local/authorize',
         clientId:    '6',
         redirectURI: 'http://360global.local:5003',
         scope:       '',
