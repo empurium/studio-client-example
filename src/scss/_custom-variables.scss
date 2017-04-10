@@ -17,7 +17,7 @@ $gray-light:                #adb2ba; //#9faecb;
 $gray-lighter:              #e8ebef; //#c0cadd
 $gray-lightest:             #f9f9fa; //#e1e6ef
 
-$brand-primary:             #134739;
+$brand-primary: #472b13;
 $brand-success:             #4fa951;
 $brand-info:                #67c2ef;
 $brand-warning:             #fabb3d;
@@ -75,10 +75,10 @@ $navbar-border: (
     )
 );
 $navbar-brand-width:                250px;
-$navbar-brand-bg:                   $brand-primary;
+$navbar-brand-bg:                   #fff;
 // Path links from node_modules/@freescan/skeleton
 // back into the consumer repository!
-$navbar-brand-logo:                 url('../../../../../src/assets/img/720global-logo.png');
+$navbar-brand-logo:                 url('../../../../../src/assets/img/360global-logo.png');
 $navbar-brand-logo-size:            180px auto;
 $navbar-brand-border:               none;
 
@@ -113,14 +113,14 @@ $sidebar-nav-link-bg:               transparent;
 $sidebar-nav-link-icon-color:       $brand-primary;
 
 $sidebar-nav-link-borders:          0;
-$sidebar-nav-link-hover-color:      darken($brand-success, 10%);
+$sidebar-nav-link-hover-color:      darken($brand-primary, 10%);
 $sidebar-nav-link-hover-bg:         darken($sidebar-bg, 5%);
-$sidebar-nav-link-hover-icon-color: darken($brand-success, 10%) !important;
+$sidebar-nav-link-hover-icon-color: darken($brand-primary, 10%) !important;
 
 $sidebar-nav-link-hover-borders:    0;
-$sidebar-nav-link-active-color:     $brand-success;
+$sidebar-nav-link-active-color:     $brand-primary;
 $sidebar-nav-link-active-bg:        darken($sidebar-bg, 5%);
-$sidebar-nav-link-active-icon-color: $brand-success;
+$sidebar-nav-link-active-icon-color: $brand-primary;
 
 $sidebar-nav-link-active-borders:   0;
 
