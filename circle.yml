@@ -1,0 +1,18 @@
+machine:
+  timezone:
+    America/Chicago
+  node:
+    version:
+      6.9.4
+
+dependencies:
+  pre:
+    - echo -e "$NPM_USER\n$NPM_PASS\n$NPM_EMAIL" | npm login
+  override:
+    - yarn install --no-progress
+
+test:
+  override:
+    #- npm run lint
+    - npm run test:circle
+    - npm run build:circle
