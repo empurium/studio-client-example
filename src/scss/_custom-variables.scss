@@ -17,7 +17,7 @@ $gray-light:                #adb2ba; //#9faecb;
 $gray-lighter:              #e8ebef; //#c0cadd
 $gray-lightest:             #f9f9fa; //#e1e6ef
 
-$brand-primary: #472b13;
+$brand-primary:             #333e47;
 $brand-success:             #4fa951;
 $brand-info:                #67c2ef;
 $brand-warning:             #fabb3d;
@@ -66,7 +66,7 @@ $vimeo: #aad450;
 // Navbar
 
 $navbar-height:                     60px;
-$navbar-bg:                         #155e53;
+$navbar-bg:                         lighten($brand-primary, 20%);
 $navbar-border: (
     bottom: (
         size:                       1px,
