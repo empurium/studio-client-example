@@ -1,11 +1,11 @@
 {
-  "name": "studio-720global",
+  "name": "studio-360global",
   "version": "0.0.1",
-  "description": "720 Global",
+  "description": "360 Global",
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 5002",
+    "start": "ng serve --port 5003",
     "build": "ng build",
     "build:staging": "ng build -e staging -t production -aot --progress=false",
     "build:prod": "ng build -e prod -t production -aot --progress=false",
