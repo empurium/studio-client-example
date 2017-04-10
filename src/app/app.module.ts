@@ -10,13 +10,7 @@ import { AppRoutingModule } from './app.routing';
 // Components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-
-// TODO Lazy load these as needed...
-import { PhilosophyComponent } from './philosophy/philosophy.component';
-import { PressComponent } from './press/press.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { ResourcesComponent } from './resources/resources.component';
-import { ContactComponent } from './contact/contact.component';
+import { LinksComponent } from './links/links.component';
 
 
 @NgModule({
@@ -32,11 +26,7 @@ import { ContactComponent } from './contact/contact.component';
     declarations: [
         AppComponent,
         HomeComponent,
-        PhilosophyComponent,
-        PressComponent,
-        TestimonialsComponent,
-        ResourcesComponent,
-        ContactComponent,
+        LinksComponent,
     ],
 
     bootstrap: [AppComponent],

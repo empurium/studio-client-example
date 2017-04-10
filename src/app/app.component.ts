@@ -15,7 +15,7 @@ export class AppComponent extends DashboardComponent implements OnInit {
             exactActive: true,
         },
         {
-            label: 'Login to The Unseen',
+            label: 'Authenticate',
             icon:  'icon-login',
             show:  (): boolean => {
                 return !this.authenticated();
@@ -25,29 +25,9 @@ export class AppComponent extends DashboardComponent implements OnInit {
             },
         },
         {
-            routerLink: '/philosophy',
-            label:      'Philosophy',
-            icon:       'icon-book-open',
-        },
-        {
-            routerLink: '/press',
-            label:      'In the Press',
-            icon:       'icon-camrecorder',
-        },
-        {
-            routerLink: '/testimonials',
-            label:      'Testimonials',
-            icon:       'icon-trophy',
-        },
-        {
-            routerLink: '/resources',
-            label:      'Resources',
-            icon:       'icon-paper-clip',
-        },
-        {
-            routerLink: '/contact',
-            label:      'Contact Us',
-            icon:       'icon-speech',
+            routerLink: '/links',
+            label:      'Links',
+            icon:       'icon-link',
         },
     ];
 
