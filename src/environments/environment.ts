@@ -11,7 +11,7 @@ export const environment: Environment = {
 
     // API URL's
     api: {
-        passport:     'http://passport.freescan.local',
+        passport:     'http://passport.publication.studio.local',
         vinyl:        'http://vinyl-api.360global.local',
         cashier:      'http://cashier-api.360global.local',
         files:        'http://files-api.360global.local',
@@ -19,7 +19,7 @@ export const environment: Environment = {
     },
 
     passport: {
-        login:       'http://passport.freescan.local/authorize',
+        login:       'http://passport.publication.studio.local/authorize',
         clientId:    '8',
         redirectURI: 'http://360global.local:5003',
         scope:       '',
