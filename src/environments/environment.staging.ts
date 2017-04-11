@@ -7,16 +7,16 @@ export const environment: Environment = {
     // API URL's
     api: {
         passport:     'http://staging-passport.publication.studio',
-        cashier:      'http://staging-cashier.freescan.com',
-        vinyl:        'http://staging-vinyl.freescan.com',
-        files:        'http://staging-files.freescan.com',
-        publications: 'http://staging-publication-api.publication.studio',
+        cashier:      'http://staging-cashier.360global.space',
+        vinyl:        'http://staging-vinyl.360global.space',
+        files:        'http://staging-files.360global.space',
+        publications: 'http://staging-publication-api.360global.space',
     },
 
     passport: {
         login:       'http://staging-passport.publication.studio/authorize',
         clientId:    '8',
-        redirectURI: 'http://360global.smashitall.com',
+        redirectURI: 'http://staging.360global.space',
         scope:       '',
     },
 };

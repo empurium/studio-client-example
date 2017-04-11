@@ -7,16 +7,16 @@ export const environment: Environment = {
     // API URL's
     api: {
         passport:     'http://passport.publication.studio',
-        cashier:      'http://cashier.freescan.com',
-        vinyl:        'http://vinyl.freescan.com',
-        files:        'http://files.freescan.com',
-        publications: 'http://api.publication.studio',
+        cashier:      'http://cashier.360global.space',
+        vinyl:        'http://vinyl.360global.space',
+        files:        'http://files.360global.space',
+        publications: 'http://publication-api.360global.space',
     },
 
     passport: {
-        login:       'http://passport.360global.publication.studio/authorize',
+        login:       'http://passport.publication.studio/authorize',
         clientId:    '8',
-        redirectURI: 'http://www.360global.net', // Pull from domain
+        redirectURI: 'http://www.360global.space',
         scope:       '',
     },
 };
