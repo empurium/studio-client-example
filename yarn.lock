@@ -162,6 +162,28 @@
     ngx-bootstrap "^1.6.3"
     zone.js "^0.8.5"
 
+"@freescan/skeleton@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@freescan/skeleton/-/skeleton-1.5.1.tgz#a98105e3932b28a68809dc1001054f7863d57c75"
+  dependencies:
+    "@angular/animations" "^4.0.1"
+    "@angular/common" "^4.0.1"
+    "@angular/core" "^4.0.1"
+    "@angular/forms" "^4.0.1"
+    "@angular/http" "^4.0.1"
+    "@angular/platform-browser" "^4.0.1"
+    "@angular/router" "^4.0.1"
+    "@freescan/http" "^1.1.1"
+    angular-oauth2-oidc "^1.0.20"
+    angular2-jwt "^0.2.0"
+    animate.css "^3.5.2"
+    bootstrap "4.0.0-alpha.6"
+    moment "^2.18.1"
+    ng-pick-datetime "^4.0.3"
+    ng2-toastr "^4.0.1"
+    ngx-bootstrap "^1.6.3"
+    zone.js "^0.8.5"
+
 "@ngtools/json-schema@1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.0.5.tgz#ad39037c70c88b245ac7267a71777646b6063d77"
@@ -5213,16 +5235,9 @@ write-file-atomic@^1.1.2:
     imurmurhash "^0.1.4"
     slide "^1.1.5"
 
-ws@1.1.2:
+ws@1.1.2, ws@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.2.tgz#8a244fa052401e08c9886cf44a85189e1fd4067f"
-  dependencies:
-    options ">=0.0.5"
-    ultron "1.0.x"
-
-ws@^1.0.1:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.4.tgz#57f40d036832e5f5055662a397c4de76ed66bf61"
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FreeScanModule } from '@freescan/skeleton';
+import { StudioModule } from '@freescan/skeleton';
 import { BillingModule } from '@freescan/billing';
 
 import { environment } from '@env/environment';
@@ -15,7 +15,7 @@ import { AccountComponent } from './account/account.component';
         CommonModule,
 
         SettingsRoutingModule,
-        FreeScanModule,
+        StudioModule,
         BillingModule.forRoot(environment),
     ],
 

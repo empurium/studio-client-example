@@ -4,7 +4,7 @@ import { DashboardComponent, Navigation } from '@freescan/skeleton';
 
 @Component({
     selector: 'studio-360-app',
-    template: `<freescan-dashboard [navigation]="nav"></freescan-dashboard>`,
+    template: `<studio-dashboard [navigation]="nav"></studio-dashboard>`,
 })
 export class AppComponent extends DashboardComponent implements OnInit {
     public nav: Navigation[] = [
@@ -22,6 +22,14 @@ export class AppComponent extends DashboardComponent implements OnInit {
             },
             click: (): void => {
                 this.login();
+            },
+        },
+        {
+            label: 'Publication Studio',
+            icon:  'icon-book-open',
+            href:  '//studio.360global.local:5001', // TODO - environment-based URL
+            show:  (): boolean => {
+                return this.roles.has('dashboard');
             },
         },
         {
