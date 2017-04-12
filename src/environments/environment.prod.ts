@@ -7,10 +7,10 @@ export const environment: Environment = {
     // API URL's
     api: {
         passport:     'http://passport.publication.studio',
-        cashier:      'http://cashier-api.360global.space',
-        vinyl:        'http://vinyl-api.360global.space',
-        files:        'http://files-api.360global.space',
-        publications: 'http://publication-api.360global.space',
+        cashier:      'http://cashier.360global.space',
+        vinyl:        'http://vinyl.360global.space',
+        files:        'http://files.360global.space',
+        publications: 'http://publication.360global.space',
     },
 
     passport: {
