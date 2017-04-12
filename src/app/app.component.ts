@@ -27,7 +27,7 @@ export class AppComponent extends DashboardComponent implements OnInit {
         {
             label: 'Publication Studio',
             icon:  'icon-book-open',
-            href:  '//studio.360global.local:5001', // TODO - environment-based URL
+            href:  '//staging-studio.360global.space', // TODO - environment-based URL
             show:  (): boolean => {
                 return this.roles.has('dashboard');
             },
