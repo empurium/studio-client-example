@@ -33,6 +33,11 @@ export class AppComponent extends DashboardComponent implements OnInit {
             },
         },
         {
+            routerLink: '/publications',
+            label:      'Publications',
+            icon:       'icon-notebook',
+        },
+        {
             routerLink: '/links',
             label:      'Links',
             icon:       'icon-link',
