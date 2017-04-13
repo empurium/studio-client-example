@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { UnavailableComponent } from '@freescan/skeleton';
+import { UnavailableComponent, articlesRoutes } from '@freescan/skeleton';
 
 import { HomeComponent } from './home/home.component';
 import { LinksComponent } from './links/links.component';
@@ -18,6 +18,8 @@ export const routes: Routes = [
         path:         'settings',
         loadChildren: './settings/settings.module#SettingsModule',
     },
+
+    ...articlesRoutes,
 
     // 404
     {
