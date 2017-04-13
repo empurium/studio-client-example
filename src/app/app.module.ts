@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { StudioModule, DashboardModule, ArticlesModule } from '@freescan/skeleton';
+import { FREESCAN_ENV, StudioModule, DashboardModule, ArticlesModule } from '@freescan/skeleton';
 
 // Core
 import { environment } from '@env/environment';
@@ -19,8 +19,8 @@ import { LinksComponent } from './links/links.component';
         BrowserAnimationsModule,
 
         AppRoutingModule,
-        StudioModule.forRoot(environment),
-        ArticlesModule.forRoot(environment),
+        StudioModule.forRoot(),
+        ArticlesModule.forRoot(),
         DashboardModule,
     ],
 
@@ -28,6 +28,10 @@ import { LinksComponent } from './links/links.component';
         AppComponent,
         HomeComponent,
         LinksComponent,
+    ],
+
+    providers: [
+        { provide: FREESCAN_ENV, useValue: environment },
     ],
 
     bootstrap: [AppComponent],
