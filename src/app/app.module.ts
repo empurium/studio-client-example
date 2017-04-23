@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FREESCAN_ENV, StudioModule, DashboardModule, ArticlesModule } from '@freescan/skeleton';
+import { BillingModule } from '@freescan/billing';
 
 // Core
 import { environment } from '@env/environment';
@@ -21,6 +22,7 @@ import { LinksComponent } from './links/links.component';
         AppRoutingModule,
         StudioModule.forRoot(),
         ArticlesModule.forRoot(),
+        BillingModule.forRoot(),
         DashboardModule,
     ],
 

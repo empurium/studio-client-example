@@ -4,7 +4,9 @@ import { DashboardComponent, Navigation } from '@freescan/skeleton';
 
 @Component({
     selector: 'studio-360-app',
-    template: `<studio-dashboard [navigation]="nav"></studio-dashboard>`,
+    template: `<studio-dashboard [navigation]="nav"></studio-dashboard>
+    <studio-billing-modal></studio-billing-modal>
+    `,
 })
 export class AppComponent extends DashboardComponent implements OnInit {
     public nav: Navigation[] = [
@@ -48,7 +50,9 @@ export class AppComponent extends DashboardComponent implements OnInit {
         this.attemptLogin();
 
         this.roles.all().subscribe(
-            (roles: string[]) => { },
+            (roles: string[]) => {
+                // Fetch simply for navigation
+            },
             (error: string) => console.error(error),
         );
     }
