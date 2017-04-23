@@ -2,7 +2,9 @@ import { Environment } from '@freescan/skeleton';
 
 export const environment: Environment = {
     production: true,
-    staging: false,
+    staging:    false,
+
+    studioUrl: '//studio.360global.space',
 
     // API URL's
     api: {

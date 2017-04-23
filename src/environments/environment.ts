@@ -9,6 +9,8 @@ export const environment: Environment = {
     production: false,
     staging: false,
 
+    studioUrl: '//studio.360global.local:5001',
+
     // API URL's
     api: {
         passport:     'http://passport.publication.studio.local',

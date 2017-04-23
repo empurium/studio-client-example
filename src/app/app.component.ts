@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DashboardComponent, Navigation } from '@freescan/skeleton';
 
+import { environment } from '@env/environment';
+
 
 @Component({
     selector: 'studio-360-app',
@@ -17,7 +19,7 @@ export class AppComponent extends DashboardComponent implements OnInit {
             exactActive: true,
         },
         {
-            label: 'Authenticate',
+            label: 'Login',
             icon:  'icon-login',
             show:  (): boolean => {
                 return !this.authenticated();
@@ -29,7 +31,7 @@ export class AppComponent extends DashboardComponent implements OnInit {
         {
             label: 'Publication Studio',
             icon:  'icon-book-open',
-            href:  '//staging-studio.360global.space', // TODO - environment-based URL
+            href:  environment.studioUrl,
             show:  (): boolean => {
                 return this.roles.has('dashboard');
             },
@@ -51,7 +53,7 @@ export class AppComponent extends DashboardComponent implements OnInit {
 
         this.roles.all().subscribe(
             (roles: string[]) => {
-                // Fetch simply for navigation
+                // Fetch roles for navigation
             },
             (error: string) => console.error(error),
         );
