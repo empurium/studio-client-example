@@ -15,7 +15,7 @@ export const environment: Environment = {
 
     passport: {
         login:       'http://staging-passport.publication.studio/authorize',
-        clientId:    '8',
+        clientId:    '10',
         redirectURI: 'http://staging.360global.space',
         scope:       '',
     },
