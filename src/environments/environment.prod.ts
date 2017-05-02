@@ -8,17 +8,17 @@ export const environment: Environment = {
 
     // API URL's
     api: {
-        passport:     'http://passport.publication.studio',
-        cashier:      'http://cashier.360global.space',
-        vinyl:        'http://vinyl.360global.space',
-        files:        'http://files.360global.space',
-        publications: 'http://publication.360global.space',
+        passport:     'https://passport.360global.space',
+        cashier:      'https://cashier.360global.space',
+        vinyl:        'https://vinyl.360global.space',
+        files:        'https://files.360global.space',
+        publications: 'https://publication.360global.space',
     },
 
     passport: {
-        login:       'http://passport.publication.studio/authorize',
+        login:       'https://passport.publication.studio/authorize',
         clientId:    '10',
-        redirectURI: 'http://www.360global.space',
+        redirectURI: 'https://www.360global.space',
         scope:       '',
     },
 };

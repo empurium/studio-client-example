@@ -13,7 +13,7 @@ export const environment: Environment = {
 
     // API URL's
     api: {
-        passport:     'http://passport.publication.studio.local',
+        passport:     'http://passport.360global.local',
         vinyl:        'http://vinyl.360global.local',
         cashier:      'http://cashier.360global.local',
         files:        'http://files.360global.local',

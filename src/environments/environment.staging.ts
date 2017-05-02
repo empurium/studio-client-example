@@ -8,7 +8,7 @@ export const environment: Environment = {
 
     // API URL's
     api: {
-        passport:     'https://staging-passport.publication.studio',
+        passport:     'https://staging-passport.360global.space',
         cashier:      'https://staging-cashier.360global.space',
         vinyl:        'https://staging-vinyl.360global.space',
         files:        'https://staging-files.360global.space',
@@ -16,7 +16,7 @@ export const environment: Environment = {
     },
 
     passport: {
-        login:       'http://staging-passport.publication.studio/authorize',
+        login:       'https://staging-passport.publication.studio/authorize',
         clientId:    '10',
         redirectURI: 'http://staging.360global.space',
         scope:       '',
