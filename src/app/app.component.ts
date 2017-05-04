@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DashboardComponent, Navigation } from '@freescan/skeleton';
 
-import { environment } from '@env/environment';
-
 
 @Component({
     selector: 'studio-360-app',
@@ -17,14 +15,6 @@ export class AppComponent extends DashboardComponent implements OnInit {
             label:       'Home',
             icon:        'icon-home',
             exactActive: true,
-        },
-        {
-            label: 'Publication Studio',
-            icon:  'icon-book-open',
-            href:  environment.studioUrl,
-            show:  (): boolean => {
-                return this.roles.has('dashboard');
-            },
         },
         {
             routerLink: '/publications',
