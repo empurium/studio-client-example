@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { DashboardComponent, Navigation } from '@freescan/skeleton';
 
+import { environment } from '@env/environment';
+
 
 @Component({
     selector: 'studio-360-app',
-    template: `<studio-dashboard [navigation]="nav" layout="fluid"></studio-dashboard>
+    template: `<studio-dashboard [navigation]="nav" [studioUrl]="studio" layout="fluid"></studio-dashboard>
     <studio-billing-modal></studio-billing-modal>
     `,
 })
 export class AppComponent extends DashboardComponent implements OnInit {
+    public studio: string = environment.studioUrl;
     public nav: Navigation[] = [
         {
             routerLink:  '/',
