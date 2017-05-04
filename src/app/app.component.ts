@@ -4,7 +4,7 @@ import { DashboardComponent, Navigation } from '@freescan/skeleton';
 
 @Component({
     selector: 'studio-360-app',
-    template: `<studio-dashboard [navigation]="nav"></studio-dashboard>
+    template: `<studio-dashboard [navigation]="nav" layout="fluid"></studio-dashboard>
     <studio-billing-modal></studio-billing-modal>
     `,
 })
