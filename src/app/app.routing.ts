@@ -10,6 +10,12 @@ export const routes: Routes = [
         path:      '',
         component: HomeComponent,
     },
+
+    {
+        path:     'publications',
+        children: articlesRoutes,
+    },
+
     {
         path:      'links',
         component: LinksComponent,
@@ -19,7 +25,6 @@ export const routes: Routes = [
         loadChildren: './settings/settings.module#SettingsModule',
     },
 
-    ...articlesRoutes,
 
     // 404
     {
