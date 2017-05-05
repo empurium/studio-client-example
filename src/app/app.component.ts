@@ -5,13 +5,11 @@ import { environment } from '@env/environment';
 
 
 @Component({
-    selector: 'studio-360-app',
-    template: `<studio-dashboard [navigation]="nav" [studioUrl]="studio" layout="fluid"></studio-dashboard>
-    <studio-billing-modal></studio-billing-modal>
-    `,
+    selector:    'studio-360-app',
+    templateUrl: './app.component.html',
 })
 export class AppComponent extends DashboardComponent implements OnInit {
-    public studio: string = environment.studioUrl;
+    public studio: string    = environment.studioUrl;
     public nav: Navigation[] = [
         {
             routerLink:  '/',
