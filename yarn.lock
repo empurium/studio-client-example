@@ -116,9 +116,9 @@
   dependencies:
     tsickle "^0.21.0"
 
-"@freescan/billing@^1.6.9":
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/@freescan/billing/-/billing-1.6.9.tgz#2f2c6d6b904fe1259b63559ba49c2bcd51a00e64"
+"@freescan/billing@^1.6.10":
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/@freescan/billing/-/billing-1.6.10.tgz#e48d8734102a6db97b4988c286e0a6417dd4a432"
   dependencies:
     "@angular/common" "^4.0.1"
     "@angular/core" "^4.0.1"
