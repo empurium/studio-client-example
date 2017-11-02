@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 360global.local --port 5003",
+    "start": "ng serve --host 360global.test --port 5003",
     "build": "ng build",
     "build:staging": "ng build -e staging -t production -aot --progress=false",
     "build:prod": "ng build -e prod -t production -aot --progress=false",
