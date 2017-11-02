@@ -12,7 +12,7 @@
 brew install nvm yarn
 nvm install 6
 nvm alias default 6
-sudo echo '127.0.0.1 360global.local' >> /etc/hosts
+sudo echo '127.0.0.1 360global.test' >> /etc/hosts
 ```
 
 ### Repository Setup
@@ -24,5 +24,5 @@ yarn start
 
 ### Connect and enjoy!
 
-[http://360global.local:5003](http://http://360global.local:5003)
+[http://360global.test:5003](http://http://360global.test:5003)
 

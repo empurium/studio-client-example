@@ -9,21 +9,21 @@ export const environment: Environment = {
     production: false,
     staging: false,
 
-    studioUrl: '//studio.360global.local:5001',
+    studioUrl: '//studio.360global.test:5001',
 
     // API URL's
     api: {
-        passport:     'http://passport.360global.local',
-        vinyl:        'http://vinyl.360global.local',
-        cashier:      'http://cashier.360global.local',
-        files:        'http://files.360global.local',
-        publications: 'http://publication.360global.local',
+        passport:     'http://passport.360global.test',
+        vinyl:        'http://vinyl.360global.test',
+        cashier:      'http://cashier.360global.test',
+        files:        'http://files.360global.test',
+        publications: 'http://publication.360global.test',
     },
 
     passport: {
-        login:       'http://passport.publication.studio.local/authorize',
+        login:       'http://passport.publication.studio.test/authorize',
         clientId:    '10',
-        redirectURI: 'http://360global.local:5003',
+        redirectURI: 'http://360global.test:5003',
         scope:       '',
     },
 };
