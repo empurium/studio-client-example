@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { StudioModule } from '@freescan/skeleton';
-import { BillingModule } from '@freescan/billing';
+import { StudioModule } from '@rndstudio/skeleton';
+import { BillingModule } from '@rndstudio/billing';
 
 import { SettingsRoutingModule } from './settings.routing';
 import { SettingsComponent } from './settings.component';

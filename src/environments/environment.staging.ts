@@ -1,4 +1,4 @@
-import { Environment } from '@freescan/skeleton';
+import { Environment } from '@rndstudio/skeleton';
 
 export const environment: Environment = {
     production: false,

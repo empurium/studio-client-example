@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FREESCAN_ENV, StudioModule, DashboardModule, ArticlesModule } from '@freescan/skeleton';
-import { BillingModule } from '@freescan/billing';
+import { FREESCAN_ENV, StudioModule, DashboardModule, ArticlesModule } from '@rndstudio/skeleton';
+import { BillingModule } from '@rndstudio/billing';
 
 // Core
 import { environment } from '@env/environment';

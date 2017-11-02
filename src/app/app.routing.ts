@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { UnavailableComponent, ArticlesComponent, ArticleComponent } from '@freescan/skeleton';
+import { UnavailableComponent, ArticlesComponent, ArticleComponent } from '@rndstudio/skeleton';
 
 import { HomeComponent } from './home/home.component';
 import { PublicationsComponent } from './publications/publications.component';
